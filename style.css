@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Qahiri&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(171, 168, 212);
+}
+.relogio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.display{
+    background-color: rgb(128, 97, 214);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 70pt;
+    font-family: 'Qahiri', sans-serif; 
+    border: 10px solid #000;
+}
+footer{
+    font-size: 12pt;
+    margin-top: 10px;
+    color: #333;
+    font-family: 'Barlow Condensed', sans-serif;
+}
