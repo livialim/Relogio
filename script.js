@@ -1,9 +1,9 @@
 function atualizarTempo(){
-    var display = document.querySelector('.display')
+    const display = document.querySelector('.display')
 
-    var agora = new Date();
+    let agora = new Date();
 
-    var horario = corrigirHorario(agora.getHours()) + ':' + corrigirHorario(agora.getMinutes()) + ':' + corrigirHorario(agora.getSeconds());
+    let horario = corrigirHorario(agora.getHours()) + ':' + corrigirHorario(agora.getMinutes()) + ':' + corrigirHorario(agora.getSeconds());
 
     display.textContent = horario;
 }
